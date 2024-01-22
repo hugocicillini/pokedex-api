@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Normalize CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <!-- CSS -->
+    <link rel="stylesheet" href="assets/css/global.css">
+    <link rel="stylesheet" href="assets/css/pokedex.css">
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="assets/images/pokebola.png" type="image/x-icon">
+    <title>PokéAPI</title>
+</head>
+<body>
+    <section class="content">
+        <h1>Pokédex</h1>
+
+        <ul id="pokemonList" class="pokemons"></ul>
+
+        <div class="pagination">
+            <button type="button" id="loadMore">Carregar Pokémons</button>
+        </div>
+    </section>
+
+    <!-- Scripts -->
+    <script src="assets/js/pokeModel.js"></script>
+    <script src="assets/js/pokeApi.js"></script>
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
